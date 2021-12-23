@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container d-flex flex-column center">
+        <h2>CRUD</h2>
+        <div class="main-box d-flex flex-column center">
+            <input type="text" class="txtbox" id="txt1" placeholder="Enter Word">
+            <div class="btn-group">
+                <button class="btn" onclick="scriptcall(1)">Create</button>
+                <button class="btn" onclick="scriptcall(2)">Update</button>
+                <button class="btn" onclick="scriptcall(3)">Delete</button>
+            </div>
+            <ul id="mylist">
+                <li>List#1</li>
+                <li>List#2</li>
+                <li>List#3</li>
+            </ul>
+        </div>
+    </div>
+    
+   <script src="script.js"></script>
+</body>
+</html>
